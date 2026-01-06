@@ -9,12 +9,13 @@ Knock can Convert ACSM files to PDF/EPUBs with one command on Linux.
 This is a special build script for knock utilizing CMake instead of Nix for better compability. You can find the original knock repository here: [https://github.com/BentonEdmondson/knock](https://github.com/BentonEdmondson/knock). Special thanks to Benton Edmondson and all the other knock contributors.
 
 **As of Febebury 8th, 2025. The upstream knock repo is currently offline, the build scripts provided here is configured to use a [fork of knock](https://github.com/Alvin-He/knock-cmake/tree/knock-base-release-79).**
+<sub><sup>All links in this readme referencing the upstream knock repo will be unusuable because of this, unfortunately.</sup></sub>
 
 ## Installation
 
 NOTE: For x86-64 users, you may simply go to the [knock repository's release page](https://github.com/BentonEdmondson/knock/releases) to download a binary. The binary published by the upstream knock repository does not require any of the runtime dependencies here.
 
-1. Get to [releases](https://github.com/Alvin-He/knock-cmake/knock/releases) to get the latest release or clone this repo for the most up to date code.
+1. Get to [releases](https://github.com/Alvin-He/knock-cmake/releases) to get the latest release or clone this repo for the most up to date code.
     - *if older knock releases is needed, this repository's release version numbers should match up with the [upstream Knock repository's release page.](https://github.com/BentonEdmondson/knock/releases)*
 2. Navigate to the folder that `knock-cmake` is installed in
 3. If `apt` is your OS's package manager, then you may simply run `sudo python3 build.py` to build and install knock-cmake (this will take some time) 
